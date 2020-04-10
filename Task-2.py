@@ -18,12 +18,12 @@ if response == "no":
         new_password = input("input a new password equal to or greater than 7 in length: ")
   
 
-    newuserdetails = {"first_name": first_name, "last_name": last_name, "email": email}
+    newuserdetails = {"first_name": first_name, "last_name": last_name, "email": email, "password": new_password}
     userdatails.append(newuserdetails)
     print(userdatails)
 elif response == "yes":
    
-    newuserdetails = {"first_name": first_name, "last_name": last_name, "email": email}
+    newuserdetails = {"first_name": first_name, "last_name": last_name, "email": email, "password": new_password}
     userdatails.append(newuserdetails)
     print(userdatails)
 
